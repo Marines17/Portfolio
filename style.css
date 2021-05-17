@@ -6,6 +6,7 @@
 
 body {
   margin-top: 100px;
+  font-family: "Roboto Mono", monospace;
 }
 
 h1,
@@ -16,6 +17,7 @@ h3 {
 
 h1 {
   font-size: 96px;
+  font-family: "Caveat", cursive;
 }
 
 h2 {

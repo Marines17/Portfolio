@@ -85,6 +85,12 @@ p {
   display: block;
 }
 
+.weather-pic,
+.arcachon-pic {
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+}
+
 .about-paragraphs {
   margin: 30px 0;
 }

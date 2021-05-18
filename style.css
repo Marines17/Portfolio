@@ -48,8 +48,14 @@ ul a {
   text-decoration: none;
 }
 
+ul a:hover {
+  color: #798777;
+}
+
 .hero {
-  margin: 100px 30px;
+  display: block;
+  margin: 70px auto;
+  max-width: 700px;
   padding: 50px 30px 0 30px;
   border: 10px solid #9ab392;
 }
@@ -111,10 +117,16 @@ ul a {
 }
 
 .aboutPage,
-.contactPage,
+.contactPage {
+  border: 10px solid #9ab392;
+  margin: 60px auto;
+  padding: 30px;
+  max-width: 700px;
+}
+
 .portfolioPage {
   border: 10px solid #9ab392;
-  margin: 30px;
+  margin: 60px;
   padding: 30px;
 }
 
@@ -136,6 +148,7 @@ ul a {
 
 .email-link:hover {
   text-decoration: underline;
+  color: #798777;
 }
 
 @media (max-width: 576px) {
@@ -148,6 +161,11 @@ ul a {
   }
   p {
     text-align: center;
+  }
+  .hero,
+  .contactPage,
+  .aboutPage {
+    margin: 10px;
   }
   .contact-me {
     font-size: 25px;
@@ -168,8 +186,5 @@ ul a {
   }
   .about-paragraphs {
     margin: 20px;
-  }
-  .contactPage {
-    margin: 10px;
   }
 }

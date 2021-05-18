@@ -35,6 +35,10 @@ p {
   line-height: 1.5;
 }
 
+.hero {
+  margin: 70px 10px;
+}
+
 .navbar {
   background: var(--primary-color);
 }

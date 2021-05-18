@@ -147,10 +147,16 @@ p {
   .email-link {
     font-size: 20px;
   }
+  .aboutPage {
+    padding: 0;
+  }
   .aboutMe {
     margin-bottom: 30px;
   }
   .about-paragraphs {
-    margin: 30px;
+    margin: 20px;
+  }
+  .contactPage {
+    margin: 10px;
   }
 }

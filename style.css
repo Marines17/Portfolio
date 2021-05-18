@@ -98,9 +98,11 @@ p {
 }
 
 .aboutPage,
-.contactPage {
+.contactPage,
+.portfolioPage {
   border: 10px solid #9ab392;
   margin: 30px;
+  padding: 30px;
 }
 
 .about-paragraphs {

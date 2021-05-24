@@ -151,6 +151,11 @@ ul a:hover {
   color: #798777;
 }
 
+.github,
+.linkedin {
+  width: 70px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 70px;

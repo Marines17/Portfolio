@@ -167,6 +167,12 @@ ul a:hover {
   width: 70px;
 }
 
+.certificates img {
+  display: flex;
+  margin: 0 auto;
+  width: 600px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 70px;
@@ -206,5 +212,8 @@ ul a:hover {
   }
   .about-paragraphs {
     margin: 20px;
+  }
+  .certificates img {
+    width: 90%;
   }
 }

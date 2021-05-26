@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta
-      name="description"
-      content="Find out more about Marine, projects, contact details "
-    />
+    <meta name="description" content="Find out more about Marine" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Roboto+Mono:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
@@ -23,18 +27,15 @@
       src="https://kit.fontawesome.com/4f9c1d9cf3.js"
       crossorigin="anonymous"
     ></script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Caveat&family=Roboto+Mono:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="/style.css" />
 
     <title>About Marine SIMON</title>
   </head>
   <body class="d-flex flex-column min-vh-100">
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
       <div class="container">
-        <a class="navbar-brand text-light" href="index.html">Marine</a>
+        <a class="navbar-brand text-light" href="index.html" title="Homepage"
+          >Marine</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -53,19 +54,33 @@
                 class="nav-link text-light"
                 aria-current="page"
                 href="index.html"
+                title="Homepage"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link active text-light" href="/about.html">About</a>
+              <a
+                class="nav-link active text-light"
+                href="/about.html"
+                title="About Marine Page"
+                >About</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="/portfolio.html"
+              <a
+                class="nav-link text-light"
+                href="/portfolio.html"
+                title="Marine's Projects page"
                 >Portfolio</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="/contact.html">Contact</a>
+              <a
+                class="nav-link text-light"
+                href="/contact.html"
+                title="Contact Marine"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
@@ -84,23 +99,64 @@
       </div>
     </div>
     <div class="d-flex justify-content-center mb-5 d-none d-md-flex">
-      <img src="/images/html.png" alt="HTML logo" class="logos m-2" />
-      <img src="/images/css.png" alt="CSS logo" class="logos m-2" />
-      <img src="/images/javascript.png" alt="JS logo" class="logos m-2" />
-      <img src="/images/react.png" alt="react logo" class="logos m-2" />
-      <img src="/images/github.png" alt="Github Logo" class="logos m-2" />
-      <img src="/images/editor.png" alt="Editor logo" class="logos m-2" />
-      <img src="/images/bootstrap.png" alt="Bootstrap logo" class="logos m-2" />
+      <img
+        src="/images/html.png"
+        alt="HTML logo"
+        class="logos m-2"
+        title="Html Logo"
+      />
+      <img
+        src="/images/css.png"
+        alt="CSS logo"
+        class="logos m-2"
+        title="Css Logo"
+      />
+      <img
+        src="/images/javascript.png"
+        alt="JS logo"
+        class="logos m-2"
+        title="JS logo"
+      />
+      <img
+        src="/images/react.png"
+        alt="react logo"
+        class="logos m-2"
+        title="React logo"
+      />
+      <img
+        src="/images/github.png"
+        alt="Github Logo"
+        class="logos m-2"
+        title="Github Logo"
+      />
+      <img
+        src="/images/editor.png"
+        alt="Editor logo"
+        class="logos m-2"
+        title="Editor logo"
+      />
+      <img
+        src="/images/bootstrap.png"
+        alt="Bootstrap logo"
+        class="logos m-2"
+        title="Bootstrap logo"
+      />
     </div>
     <footer class="mt-auto">
       <div class="container m-1 d-none d-sm-block">
         <div class="row">
           <div class="col-2 p-2 me-2">
             <ul>
-              <li><a href="/index.html">Home</a></li>
-              <li><a href="/about.html">About</a></li>
-              <li><a href="/portfolio.html">Portfolio</a></li>
-              <li><a href="/contact.html">Contact</a></li>
+              <li><a href="/index.html" title="Marine's Homepage">Home</a></li>
+              <li><a href="/about.html" title="About Marine page">About</a></li>
+              <li>
+                <a href="/portfolio.html" title="Marine's projects page"
+                  >Portfolio</a
+                >
+              </li>
+              <li>
+                <a href="/contact.html" title="Contact Marine page ">Contact</a>
+              </li>
             </ul>
           </div>
           <div class="col-2 p-2 ms-3">

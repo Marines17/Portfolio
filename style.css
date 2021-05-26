@@ -128,7 +128,8 @@ ul a:hover {
 }
 
 .aboutPage,
-.contactPage {
+.contactPage,
+.certificatePage {
   border: 10px solid #9ab392;
   margin: 60px auto;
   padding: 30px;

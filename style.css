@@ -183,7 +183,8 @@ ul a:hover {
   }
   .hero,
   .contactPage,
-  .aboutPage {
+  .aboutPage,
+  .certificatePage {
     margin: 10px;
   }
   .contact-me {

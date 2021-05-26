@@ -171,6 +171,9 @@ ul a:hover {
     font-size: 70px;
     line-height: 1.5;
   }
+  .portfolio {
+    font-size: 60px;
+  }
   h2 {
     text-align: center;
   }

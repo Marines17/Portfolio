@@ -22,7 +22,7 @@ h1 {
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 44px;
 }
 
 h3 {
@@ -122,7 +122,8 @@ ul a:hover {
 }
 
 .weather-pic,
-.arcachon-pic {
+.arcachon-pic,
+.dictionary-pic {
   border-radius: 10px;
   box-shadow: var(--box-shadow);
 }
